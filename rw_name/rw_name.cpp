@@ -1,4 +1,4 @@
-// This program read and write a first name
+// This program reads and writes a first name
 
 #include "../std_lib_facilities.h"
 
