@@ -4,9 +4,11 @@
 
 int main()
 {
-    cout << "Please enter your first name (followed by 'enter'):\n";
+    cout << "Please enter your first name and age (followed by 'enter'):\n";
     string first_name; // first_name is a variable of type string
+    int age;
     cin >> first_name; // read characters into first_name
-    cout << "Hello, " << first_name << "!\n";
+    cin >> age;
+    cout << "Hello, " << first_name << "! Age: " << age << "\n";
     return 0;
 }
