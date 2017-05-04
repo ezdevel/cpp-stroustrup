@@ -26,4 +26,9 @@ int main()
     cout << "Concatenation of these 2 strings are: \n"
          << str1+str2
          << "\n";
+    if (str1 == str2) cout << "That's the same string twice.\n";
+    if (str1 < str2)
+        cout << str1 << " is alphabetically before " << str2 << "\n";
+    if (str1 > str2)
+        cout << str1 << " is alphabetically after " << str2 << "\n";
 }
